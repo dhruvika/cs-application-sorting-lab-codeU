@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dhruvikas-MacBook-Pro.local" name="com.flatironschool.javacs.ListSorterTest" skipped="0" tests="5" time="0.2" timestamp="2016-07-19T18:06:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.SECURITYSESSIONID" value="186a6" />
+    <property name="env._system_arch" value="x86_64" />
+    <property name="env.GEM_HOME" value="/Users/dhruvikasahni/.rvm/gems/ruby-2.3.0" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/hg/b_kyn9557bq9pymxkvhy4vjr0000gn/T/" />
+    <property name="env.PWD" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.9.6/libexec" />
+    <property name="java.runtime.version" value="1.8.0_74-b02" />
+    <property name="env.MY_RUBY_HOME" value="/Users/dhruvikasahni/.rvm/rubies/ruby-2.3.0" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.9ZrydGpyZ5/Render" />
+    <property name="env.DISPLAY" value="/private/tmp/com.apple.launchd.0mYNA1YqY6/org.macosforge.xquartz:0" />
+    <property name="env.rvm_version" value="1.27.0 (latest)" />
+    <property name="user.name" value="dhruvikasahni" />
+    <property name="env.USER" value="dhruvikasahni" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env._system_type" value="Darwin" />
+    <property name="env.PATH" value="/Users/dhruvikasahni/.rvm/gems/ruby-2.3.0/bin:/Users/dhruvikasahni/.rvm/gems/ruby-2.3.0@global/bin:/Users/dhruvikasahni/.rvm/rubies/ruby-2.3.0/bin:/Users/dhruvikasahni/.rbenv/shims:/Users/dhruvikasahni/Library/Enthought/Canopy_64bit/User/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/dhruvikasahni/.rvm/bin" />
+    <property name="user.language" value="en" />
+    <property name="env.rvm_prefix" value="/Users/dhruvikasahni" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="env.rvm_path" value="/Users/dhruvikasahni/.rvm" />
+    <property name="env.RUBY_VERSION" value="ruby-2.3.0" />
+    <property name="java.version" value="1.8.0_74" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env._system_name" value="OSX" />
+    <property name="http.nonProxyHosts" value="localhost|*.localhost|127.0.0.1" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.rvm_bin_path" value="/Users/dhruvikasahni/.rvm/bin" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="3" />
+    <property name="file.separator" value="/" />
+    <property name="env._system_version" value="10.10" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.JavaCS" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/build.xml" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="dhruvikasahni" />
+    <property name="ant.file" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/build.xml" />
+    <property name="os.version" value="10.10.5" />
+    <property name="env.TERM_PROGRAM_VERSION" value="343.7" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.74-b02" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.9.6/libexec/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.IRBRC" value="/Users/dhruvikasahni/.rvm/rubies/ruby-2.3.0/.irbrc" />
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="env.JAVA_MAIN_CLASS_13025" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="localhost|*.localhost|127.0.0.1" />
+    <property name="ftp.nonProxyHosts" value="localhost|*.localhost|127.0.0.1" />
+    <property name="env.GEM_PATH" value="/Users/dhruvikasahni/.rvm/gems/ruby-2.3.0:/Users/dhruvikasahni/.rvm/gems/ruby-2.3.0@global" />
+    <property name="target" value="1.7" />
+    <property name="user.home" value="/Users/dhruvikasahni" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/Users/dhruvikasahni/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/bin:/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/lib/junit-4.12.jar:/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/lib/hamcrest-core-1.3.jar:/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/lib/hamcrest-library-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.ListSorterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/junit/TEST-com.flatironschool.javacs.ListSorterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/junitvmwatcher3559672751555371597.properties propsfile=/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13/junit729638350071955404.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="env.TERM_SESSION_ID" value="9703498E-4ABB-4016-B5A3-84CF096C4435" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.RBENV_SHELL" value="bash" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/dhruvikasahni" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.io.tmpdir" value="/var/folders/hg/b_kyn9557bq9pymxkvhy4vjr0000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.oBxdJK3BS1/Listeners" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/dhruvikasahni/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/dhruvikasahni/Desktop/CodeU/cs-application-sorting-lab-codeU/javacs-lab13" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.VIRTUAL_ENV" value="/Users/dhruvikasahni/Library/Enthought/Canopy_64bit/User" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.ListSorterTest" name="testMergeSort" time="0.017" />
+  <testcase classname="com.flatironschool.javacs.ListSorterTest" name="testTopK" time="0.001" />
+  <testcase classname="com.flatironschool.javacs.ListSorterTest" name="testHeapSort" time="0.0" />
+  <testcase classname="com.flatironschool.javacs.ListSorterTest" name="testMergeSortInPlace" time="0.003" />
+  <testcase classname="com.flatironschool.javacs.ListSorterTest" name="testInsertionSort" time="0.0" />
+  <system-out><![CDATA[YAY RECURSION!!!111!!1!!: 0
+[3, 5, 1, 4, 2]
+2
+4
+LIST1:[3, 5]
+LIST2: [1, 4, 2]
+AFTER SORTING
+Get ready for recursion: 1
+YAY RECURSION!!!111!!1!!: 1
+[3, 5]
+1
+1
+LIST1:[3]
+LIST2: [5]
+AFTER SORTING
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST1:[3]
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST2: [5]
+MADE IT HERE
+FINAL LIST[3, 5]
+Yay you did recursion: 0
+LIST1:[3, 5]
+Get ready for recursion: 1
+YAY RECURSION!!!111!!1!!: 1
+[1, 4, 2]
+1
+2
+LIST1:[1]
+LIST2: [4, 2]
+AFTER SORTING
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST1:[1]
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+[4, 2]
+1
+1
+LIST1:[4]
+LIST2: [2]
+AFTER SORTING
+Get ready for recursion: 3
+YAY RECURSION!!!111!!1!!: 3
+Yay you did recursion: 2
+LIST1:[4]
+Get ready for recursion: 3
+YAY RECURSION!!!111!!1!!: 3
+Yay you did recursion: 2
+LIST2: [2]
+FINAL LIST[2, 4]
+Yay you did recursion: 1
+LIST2: [2, 4]
+MADE IT HERE
+FINAL LIST[1, 2, 4]
+Yay you did recursion: 0
+LIST2: [1, 2, 4]
+FINAL LIST[1, 2, 3, 4, 5]
+YAY RECURSION!!!111!!1!!: 0
+[3, 5, 1, 4, 2]
+2
+4
+LIST1:[3, 5]
+LIST2: [1, 4, 2]
+AFTER SORTING
+Get ready for recursion: 1
+YAY RECURSION!!!111!!1!!: 1
+[3, 5]
+1
+1
+LIST1:[3]
+LIST2: [5]
+AFTER SORTING
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST1:[3]
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST2: [5]
+MADE IT HERE
+FINAL LIST[3, 5]
+Yay you did recursion: 0
+LIST1:[3, 5]
+Get ready for recursion: 1
+YAY RECURSION!!!111!!1!!: 1
+[1, 4, 2]
+1
+2
+LIST1:[1]
+LIST2: [4, 2]
+AFTER SORTING
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+Yay you did recursion: 1
+LIST1:[1]
+Get ready for recursion: 2
+YAY RECURSION!!!111!!1!!: 2
+[4, 2]
+1
+1
+LIST1:[4]
+LIST2: [2]
+AFTER SORTING
+Get ready for recursion: 3
+YAY RECURSION!!!111!!1!!: 3
+Yay you did recursion: 2
+LIST1:[4]
+Get ready for recursion: 3
+YAY RECURSION!!!111!!1!!: 3
+Yay you did recursion: 2
+LIST2: [2]
+FINAL LIST[2, 4]
+Yay you did recursion: 1
+LIST2: [2, 4]
+MADE IT HERE
+FINAL LIST[1, 2, 4]
+Yay you did recursion: 0
+LIST2: [1, 2, 4]
+FINAL LIST[1, 2, 3, 4, 5]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

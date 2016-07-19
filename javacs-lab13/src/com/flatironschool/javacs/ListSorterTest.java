@@ -88,7 +88,7 @@ public class ListSorterTest {
 	@Test
 	public void testHeapSort() {
 		List<Integer> list = new ArrayList<Integer>(Arrays.asList(3, 5, 1, 4, 2));
-		sorter.heapSort(list, comparator);
+		sorter.heapSort(list, comparator);	
 		isSorted(list);
 	}
 
